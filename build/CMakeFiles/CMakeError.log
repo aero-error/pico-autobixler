@@ -1,5 +1,5 @@
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-Compiler: /usr/bin/arm-none-eabi-gcc 
+Compiler: /bin/arm-none-eabi-gcc-9.2.1 
 Build flags: 
 Id flags:  
 

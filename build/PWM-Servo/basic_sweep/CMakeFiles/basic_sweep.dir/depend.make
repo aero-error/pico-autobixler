@@ -126,13 +126,13 @@ PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/common/pico_time/include/pico/time.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
-PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
-PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h
@@ -141,8 +141,8 @@ PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
-PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/basic_sweep.c.obj: /home/aquila/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
