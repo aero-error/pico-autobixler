@@ -627,8 +627,6 @@ Discarded input sections
                 0x0000000000000000       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2ufix
                 0x0000000000000000       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2f
-                0x0000000000000000       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_srqt
                 0x0000000000000000       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_sincostan_remainder
@@ -743,8 +741,6 @@ Discarded input sections
                 0x0000000000000000        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int64_shim
                 0x0000000000000000       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2float_shim
-                0x0000000000000000       0x5c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.x2double_shims
                 0x0000000000000000       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dreduce  0x0000000000000000       0x82 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -768,12 +764,8 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_farithmetic
                 0x0000000000000000       0x58 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .text.__wrap___aeabi_cfcmple
-                0x0000000000000000       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_fcmpeq
                 0x0000000000000000       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .text.__wrap___aeabi_fcmplt
-                0x0000000000000000        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_fcmple
                 0x0000000000000000       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_fcmpge
@@ -793,8 +785,6 @@ Discarded input sections
  .text.float2fix
                 0x0000000000000000       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.float2ufix
-                0x0000000000000000       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .text.__wrap___aeabi_f2uiz
                 0x0000000000000000       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.fix2float
                 0x0000000000000000       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -817,8 +807,6 @@ Discarded input sections
  .text.__wrap___aeabi_f2ulz
                 0x0000000000000000       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.float2ufix64
-                0x0000000000000000       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .text.__wrap___aeabi_f2d
                 0x0000000000000000       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap_srqtf
                 0x0000000000000000       0x24 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -933,8 +921,6 @@ Discarded input sections
                 0x0000000000000000       0x4c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text.d2fix_a_float
                 0x0000000000000000       0x5c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .text.float2double_shim
-                0x0000000000000000       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text          0x0000000000000000        0x0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1077,9 +1063,9 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xb4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc7Rqt0N.o
- .data          0x0000000000000000        0x0 /tmp/cc7Rqt0N.o
- .bss           0x0000000000000000        0x0 /tmp/cc7Rqt0N.o
+ .text          0x0000000000000000        0x0 /tmp/ccz2AEtV.o
+ .data          0x0000000000000000        0x0 /tmp/ccz2AEtV.o
+ .bss           0x0000000000000000        0x0 /tmp/ccz2AEtV.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1300,11 +1286,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc7Rqt0N.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccz2AEtV.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x4200
+.text           0x0000000010000100     0x4378
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1366,373 +1352,399 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000100002c0                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x000000001000035c       0xc0 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
-                0x000000001000035c                main
+ .text.angle_to_cycle
+                0x000000001000035c       0x34 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+                0x000000001000035c                angle_to_cycle
+ .text.main     0x0000000010000390       0xe0 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+                0x0000000010000390                main
  .text.set_sys_clock_pll
-                0x000000001000041c       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-                0x000000001000041c                set_sys_clock_pll
+                0x0000000010000470       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x0000000010000470                set_sys_clock_pll
  .text.check_sys_clock_khz
-                0x0000000010000494       0xb0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-                0x0000000010000494                check_sys_clock_khz
+                0x00000000100004e8       0xb0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x00000000100004e8                check_sys_clock_khz
  .text.gpio_set_function
-                0x0000000010000544       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000544                gpio_set_function
+                0x0000000010000598       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000598                gpio_set_function
  .text.hw_claim_lock
-                0x0000000010000574       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000574                hw_claim_lock
+                0x00000000100005c8       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100005c8                hw_claim_lock
  .text.hw_claim_unlock
-                0x000000001000058c       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x000000001000058c                hw_claim_unlock
+                0x00000000100005e0       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100005e0                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x00000000100005a0       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100005a0                hw_claim_or_assert
- *fill*         0x00000000100005d2        0x2 
+                0x00000000100005f4       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100005f4                hw_claim_or_assert
+ *fill*         0x0000000010000626        0x2 
  .text.running_on_fpga
-                0x00000000100005d4       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x00000000100005d4                running_on_fpga
+                0x0000000010000628       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000628                running_on_fpga
  .text.spin_locks_reset
-                0x00000000100005e8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100005e8                spin_locks_reset
+                0x000000001000063c       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000063c                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x0000000010000608       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000608                next_striped_spin_lock_num
+                0x000000001000065c       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000065c                next_striped_spin_lock_num
  .text.alarm_pool_post_alloc_init
-                0x0000000010000624       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000678       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x0000000010000664       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100006b8       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x0000000010000694       0x7c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000694                timer_pool_entry_comparator
+                0x00000000100006e8       0x7c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100006e8                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x0000000010000710       0xa4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000764       0xa4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x00000000100007b4       0x3e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100007f2        0x2 
+                0x0000000010000808       0x3e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010000846        0x2 
  .text.add_alarm_under_lock
-                0x00000000100007f4      0x174 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000848      0x174 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000968      0x32c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100009bc      0x32c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000c94       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c94                alarm_pool_init_default
+                0x0000000010000ce8       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ce8                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000ccc       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ccc                alarm_pool_get_default
+                0x0000000010000d20       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d20                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000cf8      0x170 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000cf8                alarm_pool_add_alarm_at
+                0x0000000010000d4c      0x170 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d4c                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x0000000010000e68       0xfc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000e68                sleep_until
+                0x0000000010000ebc       0xfc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ebc                sleep_until
  .text.sleep_us
-                0x0000000010000f64       0x58 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f64                sleep_us
+                0x0000000010000fb8       0x58 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000fb8                sleep_us
  .text.sleep_ms
-                0x0000000010000fbc       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000fbc                sleep_ms
+                0x0000000010001010       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001010                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x0000000010000fd0       0x8c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001024       0x8c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x000000001000105c       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000105c                hardware_alarm_claim
+                0x00000000100010b0       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100010b0                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001074       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001074                time_us_64
+                0x00000000100010c8       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100010c8                time_us_64
  .text.busy_wait_until
-                0x000000001000108c       0x24 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000108c                busy_wait_until
+                0x00000000100010e0       0x24 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100010e0                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x00000000100010b0       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100010b0                hardware_alarm_set_callback
+                0x0000000010001104       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001104                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001140       0xe8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001140                hardware_alarm_set_target
+                0x0000000010001194       0xe8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001194                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001228       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001228                hardware_alarm_cancel
+                0x000000001000127c       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000127c                hardware_alarm_cancel
  .text.lock_init
-                0x0000000010001268       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010001268                lock_init
+                0x00000000100012bc       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000000100012bc                lock_init
  .text.mutex_init_internal
-                0x0000000010001278       0x1e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100012cc       0x1e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .text.mutex_init
-                0x0000000010001296        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001296                mutex_init
+                0x00000000100012ea        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100012ea                mutex_init
  .text.recursive_mutex_init
-                0x00000000100012a0        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100012a0                recursive_mutex_init
- *fill*         0x00000000100012aa        0x2 
+                0x00000000100012f4        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100012f4                recursive_mutex_init
+ *fill*         0x00000000100012fe        0x2 
  .text.ph_add_child_node
-                0x00000000100012ac       0xa4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001300       0xa4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x0000000010001350       0x3e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001000138e        0x2 
+                0x00000000100013a4       0x3e CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x00000000100013e2        0x2 
  .text.ph_clear
-                0x0000000010001390       0x70 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001390                ph_clear
+                0x00000000100013e4       0x70 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013e4                ph_clear
  .text.ph_post_alloc_init
-                0x0000000010001400        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001400                ph_post_alloc_init
- *fill*         0x000000001000140e        0x2 
+                0x0000000010001454        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001454                ph_post_alloc_init
+ *fill*         0x0000000010001462        0x2 
  .text.ph_merge_two_pass
-                0x0000000010001410       0xa8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001410                ph_merge_two_pass
+                0x0000000010001464       0xa8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001464                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100014b8      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000150c      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100015c0       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100015c0                ph_remove_head
+                0x0000000010001614       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001614                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100015d4       0xf8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100015d4                ph_remove_and_free_node
+                0x0000000010001628       0xf8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001628                ph_remove_and_free_node
  .text.runtime_init
-                0x00000000100016cc       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100016cc                runtime_init
- .text._exit    0x00000000100017a4        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017a4                _exit
- .text.exit     0x00000000100017a8        0x6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017a8                exit
- *fill*         0x00000000100017ae        0x2 
+                0x0000000010001720       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001720                runtime_init
+ .text._exit    0x00000000100017f8        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100017f8                _exit
+ .text.exit     0x00000000100017fc        0x6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100017fc                exit
+ *fill*         0x0000000010001802        0x2 
  .text.__assert_func
-                0x00000000100017b0       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017b0                __assert_func
- .text.panic    0x00000000100017ec       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017ec                panic
+                0x0000000010001804       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001804                __assert_func
+ .text.panic    0x0000000010001840       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001840                panic
  .text.clock_configure
-                0x000000001000181c      0x104 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x000000001000181c                clock_configure
+                0x0000000010001870      0x104 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001870                clock_configure
  .text.clocks_init
-                0x0000000010001920      0x100 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001920                clocks_init
+                0x0000000010001974      0x100 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001974                clocks_init
  .text.clock_get_hz
-                0x0000000010001a20        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001a20                clock_get_hz
+                0x0000000010001a74        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001a74                clock_get_hz
  .text.set_raw_irq_handler_and_unlock
-                0x0000000010001a2c       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001a80       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x0000000010001a54       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001aa8       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x0000000010001a88       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001adc       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x0000000010001ac8       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001ac8                irq_is_enabled
+                0x0000000010001b1c       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b1c                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x0000000010001ae0       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001ae0                irq_set_mask_enabled
+                0x0000000010001b34       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b34                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x0000000010001b00        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b00                irq_set_enabled
- *fill*         0x0000000010001b0e        0x2 
+                0x0000000010001b54        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b54                irq_set_enabled
+ *fill*         0x0000000010001b62        0x2 
  .text.irq_get_vtable_handler
-                0x0000000010001b10       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b10                irq_get_vtable_handler
+                0x0000000010001b64       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b64                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010001b20       0x54 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b20                irq_set_exclusive_handler
+                0x0000000010001b74       0x54 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b74                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010001b74      0x1ac CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b74                irq_remove_handler
+                0x0000000010001bc8      0x1ac CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001bc8                irq_remove_handler
  .text.irq_set_priority
-                0x0000000010001d20       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001d20                irq_set_priority
+                0x0000000010001d74       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001d74                irq_set_priority
  .text.irq_add_tail_to_free_list
-                0x0000000010001d48       0xf0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001d48                irq_add_tail_to_free_list
+                0x0000000010001d9c       0xf0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001d9c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001e38       0x16 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001e38                irq_init_priorities
- *fill*         0x0000000010001e4e        0x2 
+                0x0000000010001e8c       0x16 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001e8c                irq_init_priorities
+ *fill*         0x0000000010001ea2        0x2 
  .text.pll_init
-                0x0000000010001e50      0x118 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001e50                pll_init
+                0x0000000010001ea4      0x118 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001ea4                pll_init
  .text.watchdog_start_tick
-                0x0000000010001f68       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001f68                watchdog_start_tick
+                0x0000000010001fbc       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001fbc                watchdog_start_tick
  .text.xosc_init
-                0x0000000010001f78       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001f78                xosc_init
+                0x0000000010001fcc       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001fcc                xosc_init
  .text._out_null
-                0x0000000010001fa0        0x2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001ff4        0x2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010001fa2        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x0000000010001fb0       0x24 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001ff6        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x0000000010002004       0x24 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001fd4       0xae CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002028       0xae CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002082      0x110 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100020d6      0x110 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x0000000010002192       0xbc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100021e6       0xbc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x000000001000224e       0xe2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000010002330      0x40c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x000000001000273c      0x354 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100022a2       0xe2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010002384      0x40c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002790      0x354 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002a90      0x628 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002ae4      0x628 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x00000000100030b8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000100030b8                vfctprintf
- .text          0x00000000100030d8       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000001000310c       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000310c                vfctprintf
+ .text          0x000000001000312c       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100030e8       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100030e8                rom_func_lookup
+                0x000000001000313c       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000313c                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100030f8       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100030f8                rom_data_lookup
+                0x000000001000314c       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000314c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010003108       0x36 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003108                rom_funcs_lookup
- *fill*         0x000000001000313e        0x2 
+                0x000000001000315c       0x36 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000315c                rom_funcs_lookup
+ *fill*         0x0000000010003192        0x2 
  .text.__wrap___aeabi_idiv
-                0x0000000010003140       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003140                __wrap___aeabi_idivmod
-                0x0000000010003140                divmod_s32s32
-                0x0000000010003140                div_s32s32
-                0x0000000010003140                __wrap___aeabi_idiv
-                0x0000000010003148                divmod_s32s32_unsafe
-                0x0000000010003174                divmod_s32s32_savestate
+                0x0000000010003194       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003194                __wrap___aeabi_idivmod
+                0x0000000010003194                divmod_s32s32
+                0x0000000010003194                div_s32s32
+                0x0000000010003194                __wrap___aeabi_idiv
+                0x000000001000319c                divmod_s32s32_unsafe
+                0x00000000100031c8                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010003190       0x4c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003190                __wrap___aeabi_uidiv
-                0x0000000010003190                __wrap___aeabi_uidivmod
-                0x0000000010003190                div_u32u32
-                0x0000000010003190                divmod_u32u32
-                0x0000000010003198                divmod_u32u32_unsafe
-                0x00000000100031c0                divmod_u32u32_savestate
+                0x00000000100031e4       0x4c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100031e4                __wrap___aeabi_uidiv
+                0x00000000100031e4                __wrap___aeabi_uidivmod
+                0x00000000100031e4                div_u32u32
+                0x00000000100031e4                divmod_u32u32
+                0x00000000100031ec                divmod_u32u32_unsafe
+                0x0000000010003214                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x00000000100031dc      0x430 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100031dc                div_s64s64
-                0x00000000100031dc                divmod_s64s64
-                0x00000000100031dc                __wrap___aeabi_ldivmod
-                0x0000000010003214                div_u64u64
-                0x0000000010003214                divmod_u64u64
-                0x0000000010003214                __wrap___aeabi_uldivmod
-                0x0000000010003224                divmod_u64u64_savestate
-                0x000000001000324c                divmod_s64s64_unsafe
-                0x00000000100032d4                divmod_u64u64_unsafe
+                0x0000000010003230      0x430 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003230                div_s64s64
+                0x0000000010003230                divmod_s64s64
+                0x0000000010003230                __wrap___aeabi_ldivmod
+                0x0000000010003268                div_u64u64
+                0x0000000010003268                divmod_u64u64
+                0x0000000010003268                __wrap___aeabi_uldivmod
+                0x0000000010003278                divmod_u64u64_savestate
+                0x00000000100032a0                divmod_s64s64_unsafe
+                0x0000000010003328                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x000000001000360c       0x80 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000360c                __wrap___aeabi_drsub
-                0x0000000010003612                __wrap___aeabi_dsub
-                0x0000000010003624                __wrap___aeabi_dadd
-                0x0000000010003636                __wrap___aeabi_ddiv
-                0x0000000010003672                __wrap___aeabi_dmul
+                0x0000000010003660       0x80 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003660                __wrap___aeabi_drsub
+                0x0000000010003666                __wrap___aeabi_dsub
+                0x0000000010003678                __wrap___aeabi_dadd
+                0x000000001000368a                __wrap___aeabi_ddiv
+                0x00000000100036c6                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x000000001000368c       0x6c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000368c                __wrap___aeabi_cdrcmple
-                0x000000001000369c                __wrap___aeabi_cdcmple
-                0x000000001000369c                __wrap___aeabi_cdcmpeq
+                0x00000000100036e0       0x6c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036e0                __wrap___aeabi_cdrcmple
+                0x00000000100036f0                __wrap___aeabi_cdcmple
+                0x00000000100036f0                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x00000000100036f8        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100036f8                __wrap___aeabi_dcmplt
+                0x000000001000374c        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000374c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003704       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003704                __wrap___aeabi_dcmple
+                0x0000000010003758       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003758                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003714       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003714                __wrap___aeabi_dcmpge
+                0x0000000010003768       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003768                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003724        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003724                __wrap___aeabi_dcmpgt
+                0x0000000010003778        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003778                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x000000001000372e       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000372e                __wrap___aeabi_dcmpun
- *fill*         0x000000001000374a        0x2 
+                0x0000000010003782       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003782                __wrap___aeabi_dcmpun
+ *fill*         0x000000001000379e        0x2 
  .text.__wrap___aeabi_i2d
-                0x000000001000374c       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000374c                __wrap___aeabi_ui2d
-                0x0000000010003754                __wrap___aeabi_i2d
+                0x00000000100037a0       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100037a0                __wrap___aeabi_ui2d
+                0x00000000100037a8                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003784       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003784                __wrap___aeabi_d2iz
-                0x0000000010003784                double2int_z
+                0x00000000100037d8       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100037d8                __wrap___aeabi_d2iz
+                0x00000000100037d8                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x00000000100037cc       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100037cc                double2uint
-                0x00000000100037cc                __wrap___aeabi_d2uiz
+                0x0000000010003820       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003820                double2uint
+                0x0000000010003820                __wrap___aeabi_d2uiz
+ .text.__wrap___aeabi_d2f
+                0x0000000010003838       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003838                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x00000000100037e4       0xb4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x00000000100037e4                __aeabi_double_init
+                0x0000000010003850       0xb4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003850                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003898       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003898                double_table_shim_on_use_helper
+                0x0000000010003904       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003904                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x00000000100038cc       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100038cc                drsub_shim
-                0x00000000100038d2                dsub_shim
+                0x0000000010003938       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003938                drsub_shim
+                0x000000001000393e                dsub_shim
  .text.dadd_shim
-                0x00000000100038dc      0x15c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100038dc                dadd_shim
+                0x0000000010003948      0x15c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003948                dadd_shim
  .text.dmul_shim
-                0x0000000010003a38      0x15c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003a38                dmul_shim
+                0x0000000010003aa4      0x15c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003aa4                dmul_shim
  .text.ddiv_shim
-                0x0000000010003b94      0x1b0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003b94                ddiv_shim
+                0x0000000010003c00      0x1b0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003c00                ddiv_shim
  .text.dcordic_rot_step
-                0x0000000010003d44       0x7c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d44                dcordic_rot_step
+                0x0000000010003db0       0x7c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003db0                dcordic_rot_step
  .text.double2uint_shim
-                0x0000000010003dc0        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003dc0                double2uint_shim
-                0x0000000010003dc2                double2ufix_shim
- *fill*         0x0000000010003dce        0x2 
+                0x0000000010003e2c        0xe CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003e2c                double2uint_shim
+                0x0000000010003e2e                double2ufix_shim
+ *fill*         0x0000000010003e3a        0x2 
  .text.double2uint64_shim
-                0x0000000010003dd0       0x6c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003dd0                double2uint64_shim
-                0x0000000010003dd2                double2ufix64_shim
-                0x0000000010003dec                d2fix_a
+                0x0000000010003e3c       0x6c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003e3c                double2uint64_shim
+                0x0000000010003e3e                double2ufix64_shim
+                0x0000000010003e58                d2fix_a
+ .text.double2float_shim
+                0x0000000010003ea8       0x5c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ea8                double2float_shim
  .text.dunpacks
-                0x0000000010003e3c       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003e3c                dunpacks
+                0x0000000010003f04       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003f04                dunpacks
  .text.__aeabi_lmul
-                0x0000000010003e78       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010003e78                __wrap___aeabi_lmul
- *fill*         0x0000000010003eaa        0x2 
+                0x0000000010003f40       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010003f40                __wrap___aeabi_lmul
+ *fill*         0x0000000010003f72        0x2 
+ .text.__wrap___aeabi_cfcmple
+                0x0000000010003f74       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003f74                __wrap___aeabi_cfrcmple
+                0x0000000010003f80                __wrap___aeabi_cfcmpeq
+                0x0000000010003f80                __wrap___aeabi_cfcmple
+ .text.__wrap___aeabi_fcmplt
+                0x0000000010003fc4        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003fc4                __wrap___aeabi_fcmplt
+ .text.__wrap___aeabi_f2uiz
+                0x0000000010003fd0       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003fd0                __wrap___aeabi_f2uiz
+ .text.__wrap___aeabi_f2d
+                0x0000000010003fe0       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003fe0                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x0000000010003eac       0xfc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010003eac                __aeabi_float_init
+                0x0000000010003ff4       0xfc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003ff4                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010003fa8       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010003fa8                float_table_shim_on_use_helper
- .text          0x0000000010003fdc       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003fdc                __aeabi_mem_init
- .text.memset   0x0000000010003fec        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003fec                __wrap_memset
- .text.memcpy   0x0000000010003ff8        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003ff8                __wrap___aeabi_memcpy
-                0x0000000010003ff8                __wrap_memcpy
+                0x00000000100040f0       0x34 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x00000000100040f0                float_table_shim_on_use_helper
+ .text.float2double_shim
+                0x0000000010004124       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004124                float2double_shim
+ .text          0x0000000010004154       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004154                __aeabi_mem_init
+ .text.memset   0x0000000010004164        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004164                __wrap_memset
+ .text.memcpy   0x0000000010004170        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004170                __wrap___aeabi_memcpy
+                0x0000000010004170                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x0000000010004004       0x80 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000417c       0x80 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x0000000010004084       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041fc       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x00000000100040c8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004240       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x00000000100040e8       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100040e8                stdout_serialize_begin
+                0x0000000010004260       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004260                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x0000000010004118       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004118                stdout_serialize_end
+                0x0000000010004290       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004290                stdout_serialize_end
  .text.stdio_put_string
-                0x0000000010004128       0x84 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100042a0       0x84 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
-                0x00000000100041ac       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100041ac                stdio_flush
+                0x0000000010004324       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004324                stdio_flush
  .text.__wrap_puts
-                0x00000000100041cc       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100041cc                __wrap_puts
+                0x0000000010004344       0x1c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004344                __wrap_puts
  .text.__wrap_vprintf
-                0x00000000100041e8       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100041e8                __wrap_vprintf
+                0x0000000010004360       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004360                __wrap_vprintf
  .text.__wrap_printf
-                0x000000001000422c       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000422c                __wrap_printf
- .text          0x0000000010004244       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x0000000010004244                strlen
+                0x00000000100043a4       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100043a4                __wrap_printf
+ .text          0x00000000100043bc       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x00000000100043bc                strlen
  *(.fini)
- .fini          0x00000000100042ac        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00000000100042ac                _fini
- .fini.__stub   0x00000000100042b0       0x50 linker stubs
+ .fini          0x0000000010004424        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x0000000010004424                _fini
+ .fini.__stub   0x0000000010004428       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1744,233 +1756,233 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010004300        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004300                . = ALIGN (0x4)
+ .eh_frame      0x0000000010004478        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010004478                . = ALIGN (0x4)
 
-.glue_7         0x0000000010004300        0x0
- .glue_7        0x0000000010004300        0x0 linker stubs
+.glue_7         0x0000000010004478        0x0
+ .glue_7        0x0000000010004478        0x0 linker stubs
 
-.glue_7t        0x0000000010004300        0x0
- .glue_7t       0x0000000010004300        0x0 linker stubs
+.glue_7t        0x0000000010004478        0x0
+ .glue_7t       0x0000000010004478        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010004300        0x0
- .vfp11_veneer  0x0000000010004300        0x0 linker stubs
+.vfp11_veneer   0x0000000010004478        0x0
+ .vfp11_veneer  0x0000000010004478        0x0 linker stubs
 
-.v4_bx          0x0000000010004300        0x0
- .v4_bx         0x0000000010004300        0x0 linker stubs
+.v4_bx          0x0000000010004478        0x0
+ .v4_bx         0x0000000010004478        0x0 linker stubs
 
-.iplt           0x0000000010004300        0x0
- .iplt          0x0000000010004300        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010004478        0x0
+ .iplt          0x0000000010004478        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010004300      0xdfc
+.rodata         0x0000000010004478      0xdfc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010004300       0x32 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- *fill*         0x0000000010004332        0x2 
+                0x0000000010004478       0x32 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ *fill*         0x00000000100044aa        0x2 
  .rodata.repeating_timer_callback.str1.4
-                0x0000000010004334       0x4b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000437f        0x1 
+                0x00000000100044ac       0x4b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100044f7        0x1 
  .rodata.alarm_pool_dump_key.str1.4
-                0x0000000010004380       0x33 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100043b3        0x1 
+                0x00000000100044f8       0x33 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000452b        0x1 
  .rodata.ph_add_child_node.str1.4
-                0x00000000100043b4       0x96 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000444a        0x2 
+                0x000000001000452c       0x96 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100045c2        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x000000001000444c       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100045c4       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x0000000010004474       0xe6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000455a        0x2 
+                0x00000000100045ec       0xe6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100046d2        0x2 
  .rodata.alarm_pool_get_default.str1.4
-                0x000000001000455c       0x21 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000457d        0x3 
+                0x00000000100046d4       0x21 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100046f5        0x3 
  .rodata.sleep_until.str1.4
-                0x0000000010004580       0x4d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100045cd        0x3 
+                0x00000000100046f8       0x4d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010004745        0x3 
  .rodata.__func__.5701
-                0x00000000100045d0       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100045e5        0x3 
+                0x0000000010004748       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000475d        0x3 
  .rodata.__func__.6002
-                0x00000000100045e8        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010004760        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.6009
-                0x00000000100045f4       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004606        0x2 
+                0x000000001000476c       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000477e        0x2 
  .rodata.__func__.6025
-                0x0000000010004608        0xf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004617        0x1 
+                0x0000000010004780        0xf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000478f        0x1 
  .rodata.__func__.6047
-                0x0000000010004618        0xd CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004625        0x3 
+                0x0000000010004790        0xd CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000479d        0x3 
  .rodata.__func__.6248
-                0x0000000010004628        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004632        0x2 
+                0x00000000100047a0        0xa CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100047aa        0x2 
  .rodata.__func__.6253
-                0x0000000010004634       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004646        0x2 
+                0x00000000100047ac       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100047be        0x2 
  .rodata.__func__.6268
-                0x0000000010004648       0x17 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000465f        0x1 
+                0x00000000100047c0       0x17 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100047d7        0x1 
  .rodata.__func__.6279
-                0x0000000010004660       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004675        0x3 
- .rodata.__func__.6296
-                0x0000000010004678       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010004692        0x2 
- .rodata.hardware_alarm_claim.str1.4
-                0x0000000010004694       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100046b6        0x2 
- .rodata.hardware_alarm_set_target.str1.4
-                0x00000000100046b8       0x65 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001000471d        0x3 
- .rodata.__func__.4548
-                0x0000000010004720       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001000473a        0x2 
- .rodata.str1.4
-                0x000000001000473c       0xb1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                                        0x115 (size before relaxing)
+                0x00000000100047d8       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  *fill*         0x00000000100047ed        0x3 
- .rodata.__func__.4610
-                0x00000000100047f0       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x0000000010004805        0x3 
- .rodata.__func__.4645
-                0x0000000010004808        0xb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .rodata.ph_add_child_node.str1.4
-                0x0000000010004813       0x96 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010004813        0x1 
- .rodata.ph_remove_any_head.str1.4
-                0x0000000010004814       0x8c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.ph_remove_and_free_node.str1.4
-                0x00000000100048a0       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x00000000100048c6        0x2 
- .rodata.__func__.5708
-                0x00000000100048c8        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__func__.5715
-                0x00000000100048d4       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x00000000100048e6        0x2 
- .rodata.__func__.5801
-                0x00000000100048e8       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x00000000100048fb        0x1 
- .rodata.__func__.5819
-                0x00000000100048fc       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__assert_func.str1.4
-                0x0000000010004914       0x3f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                                         0x43 (size before relaxing)
- *fill*         0x0000000010004953        0x1 
- .rodata.panic.str1.4
-                0x0000000010004954       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010004966        0x2 
- .rodata.clock_configure.str1.4
-                0x0000000010004968       0x57 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x00000000100049bf        0x1 
- .rodata.__func__.4667
-                0x00000000100049c0       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .rodata.make_branch.str1.4
-                0x00000000100049d0       0x4d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004a1d        0x3 
- .rodata.irq_set_exclusive_handler.str1.4
-                0x0000000010004a20       0x36 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004a56        0x2 
- .rodata.irq_add_shared_handler.str1.4
-                0x0000000010004a58       0xd9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004b31        0x3 
- .rodata.irq_remove_handler.str1.4
-                0x0000000010004b34       0x2a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004b5e        0x2 
- .rodata.irq_add_tail_to_free_list.str1.4
-                0x0000000010004b60       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                         0x3a (size before relaxing)
- *fill*         0x0000000010004b92        0x2 
- .rodata.__func__.4703
-                0x0000000010004b94       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004bae        0x2 
- .rodata.__func__.4717
-                0x0000000010004bb0        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.__func__.4725
-                0x0000000010004bbc       0x17 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004bd3        0x1 
- .rodata.__func__.4729
-                0x0000000010004bd4        0xf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004be3        0x1 
- .rodata.__func__.4768
-                0x0000000010004be4       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004bf7        0x1 
- .rodata.__func__.4787
-                0x0000000010004bf8       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010004c12        0x2 
- .rodata.pll_init.str1.4
-                0x0000000010004c14       0xdb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010004cef        0x1 
- .rodata.__func__.4402
-                0x0000000010004cf0        0x9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010004cf9        0x3 
- .rodata._ftoa.str1.4
-                0x0000000010004cfc       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010004d11        0x3 
- .rodata._vsnprintf
-                0x0000000010004d14      0x1e0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010004ef4        0x4 
- .rodata.pow10.5422
-                0x0000000010004ef8       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata.__aeabi_double_init.str1.4
-                0x0000000010004f48       0xa8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .rodata.__func__.4668
-                0x0000000010004ff0       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .rodata.__aeabi_float_init.str1.4
-                0x0000000010005004       0x7a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                                         0x7e (size before relaxing)
- *fill*         0x000000001000507e        0x2 
- .rodata.__func__.4670
-                0x0000000010005080       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x0000000010005093        0x1 
+ .rodata.__func__.6296
+                0x00000000100047f0       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000480a        0x2 
+ .rodata.hardware_alarm_claim.str1.4
+                0x000000001000480c       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000482e        0x2 
+ .rodata.hardware_alarm_set_target.str1.4
+                0x0000000010004830       0x65 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010004895        0x3 
+ .rodata.__func__.4548
+                0x0000000010004898       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100048b2        0x2 
  .rodata.str1.4
-                0x0000000010005094       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100048b4       0xb1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                                        0x115 (size before relaxing)
+ *fill*         0x0000000010004965        0x3 
+ .rodata.__func__.4610
+                0x0000000010004968       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x000000001000497d        0x3 
+ .rodata.__func__.4645
+                0x0000000010004980        0xb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .rodata.ph_add_child_node.str1.4
+                0x000000001000498b       0x96 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000498b        0x1 
+ .rodata.ph_remove_any_head.str1.4
+                0x000000001000498c       0x8c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.ph_remove_and_free_node.str1.4
+                0x0000000010004a18       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010004a3e        0x2 
+ .rodata.__func__.5708
+                0x0000000010004a40        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.__func__.5715
+                0x0000000010004a4c       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010004a5e        0x2 
+ .rodata.__func__.5801
+                0x0000000010004a60       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010004a73        0x1 
+ .rodata.__func__.5819
+                0x0000000010004a74       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.__assert_func.str1.4
+                0x0000000010004a8c       0x3f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                         0x43 (size before relaxing)
+ *fill*         0x0000000010004acb        0x1 
+ .rodata.panic.str1.4
+                0x0000000010004acc       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010004ade        0x2 
+ .rodata.clock_configure.str1.4
+                0x0000000010004ae0       0x57 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x0000000010004b37        0x1 
+ .rodata.__func__.4667
+                0x0000000010004b38       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .rodata.make_branch.str1.4
+                0x0000000010004b48       0x4d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004b95        0x3 
+ .rodata.irq_set_exclusive_handler.str1.4
+                0x0000000010004b98       0x36 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004bce        0x2 
+ .rodata.irq_add_shared_handler.str1.4
+                0x0000000010004bd0       0xd9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004ca9        0x3 
+ .rodata.irq_remove_handler.str1.4
+                0x0000000010004cac       0x2a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004cd6        0x2 
+ .rodata.irq_add_tail_to_free_list.str1.4
+                0x0000000010004cd8       0x32 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                                         0x3a (size before relaxing)
+ *fill*         0x0000000010004d0a        0x2 
+ .rodata.__func__.4703
+                0x0000000010004d0c       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004d26        0x2 
+ .rodata.__func__.4717
+                0x0000000010004d28        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.__func__.4725
+                0x0000000010004d34       0x17 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004d4b        0x1 
+ .rodata.__func__.4729
+                0x0000000010004d4c        0xf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004d5b        0x1 
+ .rodata.__func__.4768
+                0x0000000010004d5c       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004d6f        0x1 
+ .rodata.__func__.4787
+                0x0000000010004d70       0x1a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010004d8a        0x2 
+ .rodata.pll_init.str1.4
+                0x0000000010004d8c       0xdb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x0000000010004e67        0x1 
+ .rodata.__func__.4402
+                0x0000000010004e68        0x9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x0000000010004e71        0x3 
+ .rodata._ftoa.str1.4
+                0x0000000010004e74       0x15 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010004e89        0x3 
+ .rodata._vsnprintf
+                0x0000000010004e8c      0x1e0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001000506c        0x4 
+ .rodata.pow10.5422
+                0x0000000010005070       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata.__aeabi_double_init.str1.4
+                0x00000000100050c0       0xa8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .rodata.__func__.4668
+                0x0000000010005168       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .rodata.__aeabi_float_init.str1.4
+                0x000000001000517c       0x7a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                                         0x7e (size before relaxing)
+ *fill*         0x00000000100051f6        0x2 
+ .rodata.__func__.4670
+                0x00000000100051f8       0x13 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x000000001000520b        0x1 
+ .rodata.str1.4
+                0x000000001000520c       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x00000000100050d4        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000524c        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x00000000100050e0        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005258        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x00000000100050ec        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005264        0xc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.6010
-                0x00000000100050f8        0x2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100050fc                . = ALIGN (0x4)
- *fill*         0x00000000100050fa        0x2 
+                0x0000000010005270        0x2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005274                . = ALIGN (0x4)
+ *fill*         0x0000000010005272        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x00000000100050fc                . = ALIGN (0x4)
+                0x0000000010005274                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000100050fc        0x0
- .rel.iplt      0x00000000100050fc        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010005274        0x0
+ .rel.iplt      0x0000000010005274        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100050fc                __exidx_start = .
+                0x0000000010005274                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000100050fc                __exidx_end = .
-                0x00000000100050fc                . = ALIGN (0x4)
-                0x00000000100050fc                __binary_info_start = .
+                0x0000000010005274                __exidx_end = .
+                0x0000000010005274                . = ALIGN (0x4)
+                0x0000000010005274                __binary_info_start = .
 
-.binary_info    0x00000000100050fc       0x1c
+.binary_info    0x0000000010005274       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x00000000100050fc        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005274        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010005100        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005278        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010005104        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000527c        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010005108        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005280        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x000000001000510c        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005284        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010005110        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005288        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010005114        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000528c        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010005118                __binary_info_end = .
-                0x0000000010005118                . = ALIGN (0x4)
-                0x0000000010005118                __etext = .
+                0x0000000010005290                __binary_info_end = .
+                0x0000000010005290                . = ALIGN (0x4)
+                0x0000000010005290                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -1979,7 +1991,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x24c load address 0x0000000010005118
+.data           0x00000000200000c0      0x24c load address 0x0000000010005290
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2061,35 +2073,35 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x000000002000030c                __data_end__ = .
 
 .tm_clone_table
-                0x000000002000030c        0x0 load address 0x0000000010005364
+                0x000000002000030c        0x0 load address 0x00000000100054dc
  .tm_clone_table
                 0x000000002000030c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x000000002000030c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x000000002000030c        0x0 load address 0x0000000010005364
+.igot.plt       0x000000002000030c        0x0 load address 0x00000000100054dc
  .igot.plt      0x000000002000030c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000030c        0x0 load address 0x0000000010005364
+                0x000000002000030c        0x0 load address 0x00000000100054dc
                 0x000000002000030c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010005364
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100054dc
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010005364                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100054dc                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010005364
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100054dc
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010005364                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100054dc                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020000310      0x3d4
+.bss            0x0000000020000310      0x3e0
                 0x0000000020000310                . = ALIGN (0x4)
                 0x0000000020000310                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -2108,33 +2120,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  .bss.filter    0x00000000200004a8        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.pools     0x00000000200004ac       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.servoInput
-                0x00000000200004bc        0xc CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+                0x00000000200004bc       0x18 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
                 0x00000000200004bc                servoInput
  .bss.sleep_notifier
-                0x00000000200004c8        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200004d4        0x4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x00000000200004cc       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .bss.claimed   0x00000000200004dc        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200004d8       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.claimed   0x00000000200004e8        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x00000000200004dd        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000200004e9        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x00000000200004de        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200004ea        0x1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
- *fill*         0x00000000200004df        0x1 
- COMMON         0x00000000200004e0      0x100 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x00000000200004e0                sd_table
- COMMON         0x00000000200005e0      0x104 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x00000000200005e0                sf_table
-                0x00000000200006e0                sf_clz_func
-                0x00000000200006e4                . = ALIGN (0x4)
-                0x00000000200006e4                __bss_end__ = .
+ *fill*         0x00000000200004eb        0x1 
+ COMMON         0x00000000200004ec      0x100 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000200004ec                sd_table
+ COMMON         0x00000000200005ec      0x104 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000200005ec                sf_table
+                0x00000000200006ec                sf_clz_func
+                0x00000000200006f0                . = ALIGN (0x4)
+                0x00000000200006f0                __bss_end__ = .
 
-.heap           0x00000000200006e4      0x800
-                0x00000000200006e4                __end__ = .
-                0x00000000200006e4                end = __end__
+.heap           0x00000000200006f0      0x800
+                0x00000000200006f0                __end__ = .
+                0x00000000200006f0                end = __end__
  *(.heap*)
- .heap          0x00000000200006e4      0x800 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x0000000020000ee4                __HeapLimit = .
+ .heap          0x00000000200006f0      0x800 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020000ef0                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -2143,8 +2155,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010005364        0x0
-                0x0000000010005364                __flash_binary_end = .
+.flash_end      0x00000000100054dc        0x0
+                0x00000000100054dc                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2199,7 +2211,7 @@ LOAD CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_st
 LOAD CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/cc7Rqt0N.o
+LOAD /tmp/ccz2AEtV.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2290,7 +2302,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000056c       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000000000000598       0x22 /tmp/cc7Rqt0N.o
+                0x0000000000000598       0x22 /tmp/ccz2AEtV.o
  .ARM.attributes
                 0x00000000000005ba       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2328,79 +2340,79 @@ LOAD linker stubs
                                          0x4f (size before relaxing)
  .comment       0x00000000000000a7       0x5a /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x16c69
- .debug_info    0x0000000000000000     0x12f0 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- .debug_info    0x00000000000012f0      0x504 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_info    0x00000000000017f4     0x144d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0000000000002c41      0x6a2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00000000000032e3      0x1cb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00000000000034ae      0x576 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x0000000000003a24     0x4352 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000000000007d76     0x10e2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000000000008e58      0x1e4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x000000000000903c     0x1384 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000000000000a3c0     0x1aa5 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x000000000000be65     0x128a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x000000000000d0ef      0xeec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x000000000000dfdb     0x190c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x000000000000f8e7       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_info    0x000000000000f90d      0x4d6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x000000000000fde3      0xd2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000000000010b0f      0x1c5 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000000000010cd4     0x1fbf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0000000000012c93       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0000000000012cb5      0x20d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x0000000000012ec2       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x0000000000012ee4       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x0000000000012f06      0xaf9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00000000000139ff       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0000000000013a21       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0000000000013a47       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0000000000013a69      0xb42 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00000000000145ab       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00000000000145cd       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00000000000145ef       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0000000000014611      0x2c6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00000000000148d7     0x19f9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00000000000162d0       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x00000000000162f6      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_info     0x0000000000000000    0x16cc6
+ .debug_info    0x0000000000000000     0x134d CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ .debug_info    0x000000000000134d      0x504 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_info    0x0000000000001851     0x144d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000000000002c9e      0x6a2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x0000000000003340      0x1cb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x000000000000350b      0x576 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000000000003a81     0x4352 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000000000007dd3     0x10e2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000000000008eb5      0x1e4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x0000000000009099     0x1384 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x000000000000a41d     0x1aa5 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x000000000000bec2     0x128a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x000000000000d14c      0xeec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x000000000000e038     0x190c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x000000000000f944       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_info    0x000000000000f96a      0x4d6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x000000000000fe40      0xd2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000000000010b6c      0x1c5 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000000000010d31     0x1fbf CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0000000000012cf0       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0000000000012d12      0x20d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0000000000012f1f       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x0000000000012f41       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x0000000000012f63      0xaf9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0000000000013a5c       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0000000000013a7e       0x26 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0000000000013aa4       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0000000000013ac6      0xb42 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0000000000014608       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x000000000001462a       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x000000000001464c       0x22 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x000000000001466e      0x2c6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x0000000000014934     0x19f9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000000000001632d       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000016353      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_abbrev   0x0000000000000000     0x468a
- .debug_abbrev  0x0000000000000000      0x3c8 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- .debug_abbrev  0x00000000000003c8      0x1b3 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_abbrev  0x000000000000057b      0x2c4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x000000000000083f      0x2d6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x0000000000000b15       0xeb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x0000000000000c00      0x21b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x0000000000000e1b      0x617 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x0000000000001432      0x38d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00000000000017bf      0x138 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00000000000018f7      0x3a1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x0000000000001c98      0x3ad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x0000000000002045      0x451 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000000000002496      0x383 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x0000000000002819      0x4b4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x0000000000002ccd       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_abbrev  0x0000000000002ce1      0x1ee CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x0000000000002ecf      0x2d8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00000000000031a7      0x109 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00000000000032b0      0x4a1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x0000000000003751       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003763       0xf8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x000000000000385b       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x000000000000386d       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x000000000000387f      0x2af CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x0000000000003b2e       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x0000000000003b40       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003b54       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x0000000000003b66      0x2c2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x0000000000003e28       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x0000000000003e3a       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003e4c       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x0000000000003e5e       0xad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x0000000000003f0b      0x583 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x000000000000448e       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x00000000000044a2      0x1e8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_abbrev   0x0000000000000000     0x46d0
+ .debug_abbrev  0x0000000000000000      0x40e CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ .debug_abbrev  0x000000000000040e      0x1b3 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_abbrev  0x00000000000005c1      0x2c4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000000000000885      0x2d6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x0000000000000b5b       0xeb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x0000000000000c46      0x21b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x0000000000000e61      0x617 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x0000000000001478      0x38d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x0000000000001805      0x138 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x000000000000193d      0x3a1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x0000000000001cde      0x3ad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x000000000000208b      0x451 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00000000000024dc      0x383 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x000000000000285f      0x4b4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x0000000000002d13       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_abbrev  0x0000000000002d27      0x1ee CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x0000000000002f15      0x2d8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00000000000031ed      0x109 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00000000000032f6      0x4a1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x0000000000003797       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00000000000037a9       0xf8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x00000000000038a1       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x00000000000038b3       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00000000000038c5      0x2af CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x0000000000003b74       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000000000003b86       0x14 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000003b9a       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x0000000000003bac      0x2c2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000000000003e6e       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000000000003e80       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000003e92       0x12 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x0000000000003ea4       0xad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x0000000000003f51      0x583 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00000000000044d4       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000000000044e8      0x1e8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_loc      0x0000000000000000     0xc5f4
  .debug_loc     0x0000000000000000      0x377 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
@@ -2427,240 +2439,240 @@ LOAD linker stubs
  .debug_loc     0x000000000000bb1e      0xa33 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loc     0x000000000000c551       0xa3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_aranges  0x0000000000000000      0xd28
+.debug_aranges  0x0000000000000000      0xd30
  .debug_aranges
-                0x0000000000000000       0x28 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+                0x0000000000000000       0x30 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
  .debug_aranges
-                0x0000000000000028       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x0000000000000030       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_aranges
-                0x0000000000000060       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000068       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_aranges
-                0x0000000000000138       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000000000140       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .debug_aranges
-                0x0000000000000180       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000000000188       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .debug_aranges
-                0x00000000000001a8       0x58 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000000001b0       0x58 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_aranges
-                0x0000000000000200       0xd0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000208       0xd0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
  .debug_aranges
-                0x00000000000002d0       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000000002d8       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_aranges
-                0x0000000000000348       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000000000350       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_aranges
-                0x0000000000000368       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000370       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_aranges
-                0x00000000000003c8       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000000003d0       0x78 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_aranges
-                0x0000000000000440       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000000000448       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_aranges
-                0x00000000000004a0       0x70 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000000004a8       0x70 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_aranges
-                0x0000000000000510       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000518       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_aranges
-                0x00000000000005a0       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x00000000000005a8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .debug_aranges
-                0x00000000000005c0       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00000000000005c8       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_aranges
-                0x00000000000005e8       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00000000000005f0       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_aranges
-                0x0000000000000638       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000000000640       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_aranges
-                0x0000000000000668       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000670       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_aranges
-                0x00000000000006f8       0x68 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000000000700       0x68 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_aranges
-                0x0000000000000760       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000000000768       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_aranges
-                0x0000000000000790       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000000000798       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .debug_aranges
-                0x00000000000007d0      0x140 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000000007d8      0x140 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .debug_aranges
-                0x0000000000000910       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000000000918       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_aranges
-                0x0000000000000930       0xc8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000000000938       0xc8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .debug_aranges
-                0x00000000000009f8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000000000a00       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_aranges
-                0x0000000000000a18      0x130 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000000000a20      0x130 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .debug_aranges
-                0x0000000000000b48       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000000000b50       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_aranges
-                0x0000000000000b68       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000000000b70       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .debug_aranges
-                0x0000000000000bb8       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000000000bc0       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_aranges
-                0x0000000000000bf0       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000000000bf8       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .debug_aranges
-                0x0000000000000c18       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000000000c20       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .debug_aranges
-                0x0000000000000c30       0xb8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000c38       0xb8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_aranges
-                0x0000000000000ce8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000cf0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x0000000000000d08       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x0000000000000d10       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_ranges   0x0000000000000000     0x2788
- .debug_ranges  0x0000000000000000       0xa8 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- .debug_ranges  0x00000000000000a8       0x98 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_ranges  0x0000000000000140       0xe0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_ranges  0x0000000000000220       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_ranges  0x00000000000002f8       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_ranges  0x0000000000000310       0xf0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_ranges  0x0000000000000400      0xbc0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_ranges  0x0000000000000fc0      0x320 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_ranges  0x00000000000012e0       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_ranges  0x00000000000012f0      0x5c8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_ranges  0x00000000000018b8      0x230 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_ranges  0x0000000000001ae8       0x68 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_ranges  0x0000000000001b50       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_ranges  0x0000000000001bb0      0x3b0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_ranges  0x0000000000001f60       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_ranges  0x0000000000001f90       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_ranges  0x0000000000001fd0       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_ranges  0x0000000000001ff0      0x120 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_ranges  0x0000000000002110       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_ranges  0x0000000000002170       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_ranges  0x00000000000021a8       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_ranges  0x00000000000021e0      0x138 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_ranges  0x0000000000002318       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_ranges  0x0000000000002348       0xc0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_ranges  0x0000000000002408      0x128 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_ranges  0x0000000000002530       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_ranges  0x0000000000002558       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_ranges  0x00000000000025a0       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_ranges  0x00000000000025d0       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_ranges  0x00000000000025f0      0x198 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_ranges   0x0000000000000000     0x2790
+ .debug_ranges  0x0000000000000000       0xb0 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ .debug_ranges  0x00000000000000b0       0x98 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_ranges  0x0000000000000148       0xe0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_ranges  0x0000000000000228       0xd8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_ranges  0x0000000000000300       0x18 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_ranges  0x0000000000000318       0xf0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_ranges  0x0000000000000408      0xbc0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_ranges  0x0000000000000fc8      0x320 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_ranges  0x00000000000012e8       0x10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_ranges  0x00000000000012f8      0x5c8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_ranges  0x00000000000018c0      0x230 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_ranges  0x0000000000001af0       0x68 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_ranges  0x0000000000001b58       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_ranges  0x0000000000001bb8      0x3b0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_ranges  0x0000000000001f68       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_ranges  0x0000000000001f98       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_ranges  0x0000000000001fd8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_ranges  0x0000000000001ff8      0x120 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_ranges  0x0000000000002118       0x60 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_ranges  0x0000000000002178       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_ranges  0x00000000000021b0       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_ranges  0x00000000000021e8      0x138 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_ranges  0x0000000000002320       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_ranges  0x0000000000002350       0xc0 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_ranges  0x0000000000002410      0x128 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_ranges  0x0000000000002538       0x28 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_ranges  0x0000000000002560       0x48 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_ranges  0x00000000000025a8       0x30 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_ranges  0x00000000000025d8       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_ranges  0x00000000000025f8      0x198 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_line     0x0000000000000000     0xbe0a
- .debug_line    0x0000000000000000      0x625 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- .debug_line    0x0000000000000625      0x50b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_line    0x0000000000000b30      0x954 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000000000001484      0x3d2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000000000001856      0x1e1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000000000001a37      0x3cb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000000000001e02     0x18b8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00000000000036ba      0xa3b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00000000000040f5      0x1ef CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00000000000042e4      0xa10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000000000004cf4      0x877 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x000000000000556b      0x7f1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000000000005d5c      0x90a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000000000006666      0xdd6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000000000000743c       0x84 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x00000000000074c0      0x49f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000000000000795f      0x3ac CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000000000007d0b      0x233 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000000000007f3e     0x1170 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00000000000090ae      0x147 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00000000000091f5      0x15b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000000000009350      0x2ce CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x000000000000961e      0x425 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000000000009a43      0x2ef CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000000000009d32      0x69b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x000000000000a3cd       0x97 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000000000000a464      0x3db CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x000000000000a83f      0x2e9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x000000000000ab28      0x1c7 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x000000000000acef       0xc1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x000000000000adb0       0xd2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x000000000000ae82      0x147 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x000000000000afc9      0xc1f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000000bbe8       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000000bc48      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000     0xbe3b
+ .debug_line    0x0000000000000000      0x656 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ .debug_line    0x0000000000000656      0x50b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_line    0x0000000000000b61      0x954 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00000000000014b5      0x3d2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000000000001887      0x1e1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000000000001a68      0x3cb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000000000001e33     0x18b8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00000000000036eb      0xa3b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000000000004126      0x1ef CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000000000004315      0xa10 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000004d25      0x877 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000000000000559c      0x7f1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000000000005d8d      0x90a CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000000000006697      0xdd6 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000000000000746d       0x84 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x00000000000074f1      0x49f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000000000007990      0x3ac CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000000000007d3c      0x233 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000000000007f6f     0x1170 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00000000000090df      0x147 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000000000009226      0x15b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000000000009381      0x2ce CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x000000000000964f      0x425 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000000000009a74      0x2ef CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000000000009d63      0x69b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x000000000000a3fe       0x97 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000000000000a495      0x3db CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x000000000000a870      0x2e9 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x000000000000ab59      0x1c7 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x000000000000ad20       0xc1 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000000000000ade1       0xd2 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x000000000000aeb3      0x147 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x000000000000affa      0xc1f CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000000000000bc19       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000bc79      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x0000000000000000     0x33bf
- .debug_str     0x0000000000000000      0x912 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
-                                        0x9e0 (size before relaxing)
- .debug_str     0x0000000000000912      0x124 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.debug_str      0x0000000000000000     0x33e5
+ .debug_str     0x0000000000000000      0x938 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+                                        0xa06 (size before relaxing)
+ .debug_str     0x0000000000000938      0x124 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
                                         0x3f2 (size before relaxing)
- .debug_str     0x0000000000000a36      0x57c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x0000000000000a5c      0x57c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                         0x896 (size before relaxing)
- .debug_str     0x0000000000000fb2      0x1bb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x0000000000000fd8      0x1bb CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
                                         0x393 (size before relaxing)
- .debug_str     0x000000000000116d       0x71 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x0000000000001193       0x71 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
                                         0x24f (size before relaxing)
- .debug_str     0x00000000000011de       0xec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x0000000000001204       0xec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                         0x37a (size before relaxing)
- .debug_str     0x00000000000012ca      0x725 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x00000000000012f0      0x725 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
                                         0xf82 (size before relaxing)
- .debug_str     0x00000000000019ef      0x182 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x0000000000001a15      0x182 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
                                         0x69a (size before relaxing)
- .debug_str     0x0000000000001b71       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x0000000000001b97       0x3c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
                                         0x286 (size before relaxing)
- .debug_str     0x0000000000001bad      0x131 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x0000000000001bd3      0x131 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                         0x53d (size before relaxing)
- .debug_str     0x0000000000001cde       0xec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_str     0x0000000000001d04       0xec CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                         0x817 (size before relaxing)
- .debug_str     0x0000000000001dca      0x246 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x0000000000001df0      0x246 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                         0xa66 (size before relaxing)
- .debug_str     0x0000000000002010      0x208 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x0000000000002036      0x208 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                         0x65f (size before relaxing)
- .debug_str     0x0000000000002218      0x2ce CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x000000000000223e      0x2ce CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                         0x709 (size before relaxing)
- .debug_str     0x00000000000024e6       0x57 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_str     0x000000000000250c       0x57 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
                                          0x95 (size before relaxing)
- .debug_str     0x000000000000253d       0x61 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x0000000000002563       0x61 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                         0x2f1 (size before relaxing)
- .debug_str     0x000000000000259e      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00000000000025c4      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
                                         0x727 (size before relaxing)
- .debug_str     0x00000000000026a6       0x75 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00000000000026cc       0x75 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                         0x250 (size before relaxing)
- .debug_str     0x000000000000271b      0x192 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x0000000000002741      0x192 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                         0x78c (size before relaxing)
- .debug_str     0x00000000000028ad       0x47 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00000000000028d3       0x47 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                          0x91 (size before relaxing)
- .debug_str     0x00000000000028f4       0xad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x000000000000291a       0xad CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                         0x265 (size before relaxing)
- .debug_str     0x00000000000029a1       0x41 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00000000000029c7       0x41 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                          0x8b (size before relaxing)
- .debug_str     0x00000000000029e2       0x45 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x0000000000002a08       0x45 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                          0x8f (size before relaxing)
- .debug_str     0x0000000000002a27       0x91 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x0000000000002a4d       0x91 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                                         0x674 (size before relaxing)
- .debug_str     0x0000000000002ab8       0x4b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x0000000000002ade       0x4b CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
                                          0x95 (size before relaxing)
- .debug_str     0x0000000000002b03       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x0000000000002b29       0x50 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
                                          0x9a (size before relaxing)
- .debug_str     0x0000000000002b53       0x43 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x0000000000002b79       0x43 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                          0x8d (size before relaxing)
- .debug_str     0x0000000000002b96       0x8d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x0000000000002bbc       0x8d CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                         0x6ac (size before relaxing)
- .debug_str     0x0000000000002c23       0x49 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x0000000000002c49       0x49 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
                                          0x93 (size before relaxing)
- .debug_str     0x0000000000002c6c       0x47 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x0000000000002c92       0x47 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                          0x91 (size before relaxing)
- .debug_str     0x0000000000002cb3       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x0000000000002cd9       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
                                          0x8e (size before relaxing)
- .debug_str     0x0000000000002cf7      0x239 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x0000000000002d1d      0x239 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
                                         0x3fb (size before relaxing)
- .debug_str     0x0000000000002f30      0x2be CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000000000002f56      0x2be CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
                                         0xb67 (size before relaxing)
- .debug_str     0x00000000000031ee       0x97 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000003214       0x97 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                                          0xa3 (size before relaxing)
- .debug_str     0x0000000000003285      0x13a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x00000000000032ab      0x13a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
                                         0x5c2 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x1440
- .debug_frame   0x0000000000000000       0x38 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
- .debug_frame   0x0000000000000038       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_frame   0x00000000000000c8      0x1e8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x00000000000002b0       0x9c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_frame   0x000000000000034c       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_frame   0x0000000000000384       0xc4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x0000000000000448      0x294 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_frame   0x00000000000006dc      0x13c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x0000000000000818       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x0000000000000838      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x0000000000000940      0x164 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_frame   0x0000000000000aa4       0xdc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x0000000000000b80      0x12c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x0000000000000cac      0x180 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x0000000000000e2c       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x0000000000000e70       0x98 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_frame   0x0000000000000f08       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x0000000000000f48      0x1f8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x0000000000001140       0x64 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x00000000000011a4       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_frame   0x00000000000011d0       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_frame   0x00000000000011fc      0x21c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x0000000000001418       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_frame    0x0000000000000000     0x145c
+ .debug_frame   0x0000000000000000       0x54 CMakeFiles/basic_sweep.dir/basic_sweep.c.obj
+ .debug_frame   0x0000000000000054       0x90 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_frame   0x00000000000000e4      0x1e8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x00000000000002cc       0x9c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_frame   0x0000000000000368       0x38 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_frame   0x00000000000003a0       0xc4 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x0000000000000464      0x294 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_frame   0x00000000000006f8      0x13c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x0000000000000834       0x20 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x0000000000000854      0x108 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x000000000000095c      0x164 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_frame   0x0000000000000ac0       0xdc CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x0000000000000b9c      0x12c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x0000000000000cc8      0x180 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x0000000000000e48       0x44 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x0000000000000e8c       0x98 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_frame   0x0000000000000f24       0x40 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x0000000000000f64      0x1f8 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x000000000000115c       0x64 CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x00000000000011c0       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_frame   0x00000000000011ec       0x2c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_frame   0x0000000000001218      0x21c CMakeFiles/basic_sweep.dir/home/aquila/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x0000000000001434       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
