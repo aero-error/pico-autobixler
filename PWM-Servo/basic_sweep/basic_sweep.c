@@ -60,9 +60,31 @@ int main ()
 
     // Figure out which pwm slice we are connected to 
     uint slice_num_ch1 = pwm_gpio_to_slice_num(ch_aileron_pin);
-
+    pwm_set_clkdiv(slice_num_ch1, 76.3f);
     pwm_set_wrap(slice_num_ch1, wrap);
     pwm_set_gpio_level(ch_aileron_pin, 2500);
     pwm_set_enabled(slice_num_ch1, true);
+    
+    /** Diffrent PWM levels
+     * 0.5ms -- -180 -- 819
+     * 1.0ms -- -90 -- 1638
+     * 1.5ms -- 0 -- 2458
+     * 2.0ms -- +90 -- 3277
+     * 2.5ms -- +180 -- 4096
+     */
+    servoInput[0] = 1638;
+    while (true)
+    {
+        if (servoInput[0] < 3277)
+        {
+            pwm_set_gpio_level(ch_aileron_pin, servoInput[0]);
+            servoInput[0] += 1;
+        }
+        else
+        {
+            servoInput[0] = 1638;
+        }
+        sleep_ms(5);
+    }
 }
 
