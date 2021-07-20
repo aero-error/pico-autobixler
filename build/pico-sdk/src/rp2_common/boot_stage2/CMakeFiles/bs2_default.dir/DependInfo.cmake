@@ -1,10 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/aquila/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/home/aquila/pico/pico-autobixler/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+  "/home/michael/Pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/home/michael/Pico/pico-autobixler/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -18,14 +22,18 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/aquila/pico/pico-sdk/src/rp2_common/boot_stage2/asminclude"
-  "/home/aquila/pico/pico-sdk/src/rp2040/hardware_regs/include"
-  "/home/aquila/pico/pico-sdk/src/rp2_common/hardware_base/include"
-  "/home/aquila/pico/pico-sdk/src/common/pico_base/include"
+  "/home/michael/Pico/pico-sdk/src/rp2_common/boot_stage2/asminclude"
+  "/home/michael/Pico/pico-sdk/src/rp2040/hardware_regs/include"
+  "/home/michael/Pico/pico-sdk/src/rp2_common/hardware_base/include"
+  "/home/michael/Pico/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
-  "/home/aquila/pico/pico-sdk/src/boards/include"
-  "/home/aquila/pico/pico-sdk/src/rp2_common/pico_platform/include"
-  "/home/aquila/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+  "/home/michael/Pico/pico-sdk/src/boards/include"
+  "/home/michael/Pico/pico-sdk/src/rp2_common/pico_platform/include"
+  "/home/michael/Pico/pico-sdk/src/rp2_common/boot_stage2/include"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

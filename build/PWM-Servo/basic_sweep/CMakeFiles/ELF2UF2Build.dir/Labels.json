@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "/home/aquila/pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/home/michael/Pico/pico-autobixler/build/PWM-Servo/basic_sweep/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

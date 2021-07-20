@@ -8,22 +8,32 @@
  * Currently set up for 1 CH but will be modified for 6 channels
  * 
  * PWM Channel Arrangment:
- * GPIO18 -> CH1 -> Aileron
- * GPIO19 -> CH2 -> Elevator
- * GPIO20 -> CH3 -> Throttle
- * GPIO21 -> CH4 -> Rudder
- * GPIO22 -> CH5 -> AUX
- * GPIO28 -> CH6 -> AUX
+ * PIN -> CH -> Index -> Control Surface
+ * GPIO18 -> CH1 -> 0 -> Aileron
+ * GPIO19 -> CH2 -> 1 -> Elevator
+ * GPIO20 -> CH3 -> 2 -> Throttle
+ * GPIO21 -> CH4 -> 3 -> Rudder
+ * GPIO22 -> CH5 -> 4 -> AUX
+ * GPIO28 -> CH6 -> 5 -> AUX
+ * 
+ * Different PWM levels
+ * 0.5ms -- -180 -- 819
+ * 1.0ms -- -90 -- 1638
+ * 1.5ms -- 0 -- 2458
+ * 2.0ms -- +90 -- 3277
+ * 2.5ms -- +180 -- 4096
  * 
  * Written by: Michael Gromski
  */
 
+// Include needed libraries
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "pico/time.h"
 #include "hardware/pwm.h"
 #include "hardware/clocks.h"
 
+// Define global variables
 #define ch_aileron_pin 18
 #define ch_elevator_pin 19
 #define ch_throttle_pin 20
@@ -32,70 +42,72 @@
 #define ch_aux2_pin 23
 
 float servoInput[] = {0,0,0,0,0,0}; // {aleron, elevator, throttle, rudder, aux, aux}
-
+uint8_t ch_num[] = {ch_aileron_pin, ch_elevator_pin, ch_throttle_pin, ch_rudder_pin, ch_aux1_pin, ch_aux2_pin};
+uint8_t slice_ch_num[] = {0,0,0,0,0,0};
 uint16_t wrap = 32768;
 
-
-void writeServo(uint16_t *inValArray)
-{
-    // Do something
-    uint16_t PWM_pulse_length = 20000; 
-}
-
-uint16_t angle_to_cycle(float *angleInput)
+// Define Functions
+uint16_t angle_to_cycle(float *angleInput) // Converts servo deg to cycle format
 {
     float cycleOutput = 9.1033 * *angleInput + 2457.6;
     return (uint16_t)cycleOutput;
 }
 
-int main ()
+// Configures system clock, PWM clock and counter, and servo pins
+void servo_init() 
 {
     // Lets do some system configuration
     // Set system clock to 125MHZ (DO NOT CHANGE THIS VALUE!)
     set_sys_clock_khz(125000,true);
 
-    // configure pins for gpio pwm
-    gpio_set_function(ch_aileron_pin, GPIO_FUNC_PWM); //18 - 22
-    gpio_set_function(ch_elevator_pin, GPIO_FUNC_PWM);
-    gpio_set_function(ch_throttle_pin, GPIO_FUNC_PWM);
-    gpio_set_function(ch_rudder_pin, GPIO_FUNC_PWM);
-    gpio_set_function(ch_aux1_pin, GPIO_FUNC_PWM);
-    gpio_set_function(ch_aux2_pin, GPIO_FUNC_PWM);
+    // Configure the PWM clock for servo output
+    pwm_config config = pwm_get_default_config();
+    pwm_config_set_clkdiv(&config, 76.3f);
+    pwm_config_set_wrap(&config, wrap);
 
-    // Figure out which pwm slice we are connected to 
-    uint8_t slice_num_ch1 = pwm_gpio_to_slice_num(ch_aileron_pin);
-    uint8_t slice_num_ch2 = pwm_gpio_to_slice_num(ch_elevator_pin);
-    uint8_t slice_num_ch3 = pwm_gpio_to_slice_num(ch_throttle_pin);
-    uint8_t slice_num_ch4 = pwm_gpio_to_slice_num(ch_rudder_pin);
-    uint8_t slice_num_ch5 = pwm_gpio_to_slice_num(ch_aux1_pin);
-    uint8_t slice_num_ch6 = pwm_gpio_to_slice_num(ch_aux2_pin);
+    // configure pins for GPIO PWM, get their slice number, and initialize
+    for (int i = 0; i < 6; i++)
+    {
+        gpio_set_function(ch_num[i], GPIO_FUNC_PWM);
+        slice_ch_num[i] = pwm_gpio_to_slice_num(ch_num[i]);
+        pwm_init(slice_ch_num[i], &config, true);
+    }
+}
 
-    //
-    pwm_set_clkdiv(slice_num_ch1, 76.3f);
-    pwm_set_wrap(slice_num_ch1, wrap);
-    pwm_set_gpio_level(ch_aileron_pin, 2500);
-    pwm_set_enabled(slice_num_ch1, true);
+int main ()
+{
+    servo_init(); // Set up system clock
     
-    /** Diffrent PWM levels
-     * 0.5ms -- -180 -- 819
-     * 1.0ms -- -90 -- 1638
-     * 1.5ms -- 0 -- 2458
-     * 2.0ms -- +90 -- 3277
-     * 2.5ms -- +180 -- 4096
-     */
-    servoInput[0] = -90;
+    for(int i = 0; i <5; i++)
+    {
+        servoInput[i] = -89.9;
+    }
+
+    bool going_cw = false;
     while (true)
     {
-        if (servoInput[0] < 89)
+        for (int i = 0; i<5; i++)
         {
-            pwm_set_gpio_level(ch_aileron_pin, angle_to_cycle(&servoInput[0]));
-            servoInput[0] += 0.1;
+            if (going_cw == false)
+            {
+                pwm_set_gpio_level(ch_num[i], angle_to_cycle(&servoInput[i]));
+                servoInput[i] += 0.1;
+                if (servoInput[i] == 90)
+                {   
+                    going_cw = true;
+                }
+            }
+            else
+            {
+                pwm_set_gpio_level(ch_num[i], angle_to_cycle(&servoInput[i]));
+                servoInput[i] -= 0.1;
+                if (servoInput[i] == -90)
+                {   
+                    going_cw = false;
+                }
+            }
         }
-        else
-        {
-            servoInput[0] = -90;
-        }
-        sleep_ms(20);
+        sleep_ms(1);
     }
 }
 
