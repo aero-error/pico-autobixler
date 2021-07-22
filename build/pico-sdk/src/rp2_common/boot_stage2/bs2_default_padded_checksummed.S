@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/michael/Pico/pico-autobixler/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/aquila/pico/pico-autobixler/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

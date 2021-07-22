@@ -80,34 +80,36 @@ int main ()
     
     for(int i = 0; i <5; i++)
     {
-        servoInput[i] = -89.9;
+        servoInput[i] = 0;
     }
+    
+    bool going_up[] = {true, true, true, true, true, true};
 
-    bool going_cw = false;
     while (true)
     {
-        for (int i = 0; i<5; i++)
+        for(uint8_t servo = 0; servo <= 5; servo++)
         {
-            if (going_cw == false)
+            if (servoInput[servo] <= 90 & going_up[servo] == true)
             {
-                pwm_set_gpio_level(ch_num[i], angle_to_cycle(&servoInput[i]));
-                servoInput[i] += 0.1;
-                if (servoInput[i] == 90)
-                {   
-                    going_cw = true;
+                pwm_set_gpio_level(ch_num[servo], angle_to_cycle(&servoInput[servo]));
+                servoInput[servo] += 0.01;
+                if (servoInput[servo] >= 90)
+                {
+                    going_up[servo] = false;
                 }
             }
-            else
+            if (servoInput[servo] >= -90 & going_up[servo] == false)
             {
-                pwm_set_gpio_level(ch_num[i], angle_to_cycle(&servoInput[i]));
-                servoInput[i] -= 0.1;
-                if (servoInput[i] == -90)
-                {   
-                    going_cw = false;
+                pwm_set_gpio_level(ch_num[servo], angle_to_cycle(&servoInput[servo]));
+                servoInput[servo] -= 0.01;
+                if (servoInput[servo] <= -90)
+                {
+                    going_up[servo] = true;
                 }
             }
+            
         }
-        sleep_ms(1);
+        sleep_ms(0.5);
     }
 }
 

@@ -16,3 +16,4 @@ pico_sdk_init()
 
 # Hardware-specific examples in subdirectories:
 add_subdirectory(PWM-Servo)
+add_subdirectory(UART-SBUS)
