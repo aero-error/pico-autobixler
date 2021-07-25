@@ -152,3 +152,11 @@
 /home/aquila/pico/pico-autobixler/build/UART-SBUS/SBUS-Hello/CMakeFiles/rebuild_cache.dir
 /home/aquila/pico/pico-autobixler/build/UART-SBUS/SBUS-Hello/CMakeFiles/edit_cache.dir
 /home/aquila/pico/pico-autobixler/build/UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/CMakeFiles/rebuild_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/CMakeFiles/edit_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf_hello/CMakeFiles/rebuild_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf_hello/CMakeFiles/edit_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf/CMakeFiles/rebuild_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf/CMakeFiles/edit_cache.dir
+/home/aquila/pico/pico-autobixler/build/UART-CRSF/crsf/CMakeFiles/crsf.dir

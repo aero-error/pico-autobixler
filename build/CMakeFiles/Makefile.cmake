@@ -10,6 +10,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../PWM-Servo/CMakeLists.txt"
   "../PWM-Servo/basic_sweep/CMakeLists.txt"
+  "../UART-CRSF/CMakeLists.txt"
+  "../UART-CRSF/crsf/CMakeLists.txt"
+  "../UART-CRSF/crsf_hello/CMakeLists.txt"
   "../UART-SBUS/CMakeLists.txt"
   "../UART-SBUS/SBUS-Hello/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeASMCompiler.cmake"
@@ -214,6 +217,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "PWM-Servo/basic_sweep/CMakeFiles/CMakeDirectoryInformation.cmake"
   "UART-SBUS/CMakeFiles/CMakeDirectoryInformation.cmake"
   "UART-SBUS/SBUS-Hello/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "UART-CRSF/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "UART-CRSF/crsf_hello/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "UART-CRSF/crsf/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -224,4 +230,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/DependInfo.cmake"
   "UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/DependInfo.cmake"
+  "UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/DependInfo.cmake"
+  "UART-CRSF/crsf/CMakeFiles/crsf.dir/DependInfo.cmake"
   )

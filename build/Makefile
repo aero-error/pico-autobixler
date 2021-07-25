@@ -188,6 +188,32 @@ sbus_hello/fast:
 	$(MAKE) -f UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build.make UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build
 .PHONY : sbus_hello/fast
 
+#=============================================================================
+# Target rules for targets named crsf_hello
+
+# Build rule for target.
+crsf_hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 crsf_hello
+.PHONY : crsf_hello
+
+# fast build rule for target.
+crsf_hello/fast:
+	$(MAKE) -f UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build.make UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build
+.PHONY : crsf_hello/fast
+
+#=============================================================================
+# Target rules for targets named crsf
+
+# Build rule for target.
+crsf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 crsf
+.PHONY : crsf
+
+# fast build rule for target.
+crsf/fast:
+	$(MAKE) -f UART-CRSF/crsf/CMakeFiles/crsf.dir/build.make UART-CRSF/crsf/CMakeFiles/crsf.dir/build
+.PHONY : crsf/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +228,8 @@ help:
 	@echo "... ELF2UF2Build"
 	@echo "... basic_sweep"
 	@echo "... sbus_hello"
+	@echo "... crsf_hello"
+	@echo "... crsf"
 .PHONY : help
 
 

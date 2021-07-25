@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/aquila/pico/pico-autobixler/build/pico-sdk/cmake_install.cmake")
   include("/home/aquila/pico/pico-autobixler/build/PWM-Servo/cmake_install.cmake")
   include("/home/aquila/pico/pico-autobixler/build/UART-SBUS/cmake_install.cmake")
+  include("/home/aquila/pico/pico-autobixler/build/UART-CRSF/cmake_install.cmake")
 
 endif()
 

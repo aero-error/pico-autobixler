@@ -56,6 +56,7 @@ CMAKE_BINARY_DIR = /home/aquila/pico/pico-autobixler/build
 all: pico-sdk/all
 all: PWM-Servo/all
 all: UART-SBUS/all
+all: UART-CRSF/all
 
 .PHONY : all
 
@@ -63,6 +64,7 @@ all: UART-SBUS/all
 preinstall: pico-sdk/preinstall
 preinstall: PWM-Servo/preinstall
 preinstall: UART-SBUS/preinstall
+preinstall: UART-CRSF/preinstall
 
 .PHONY : preinstall
 
@@ -70,6 +72,7 @@ preinstall: UART-SBUS/preinstall
 clean: pico-sdk/clean
 clean: PWM-Servo/clean
 clean: UART-SBUS/clean
+clean: UART-CRSF/clean
 
 .PHONY : clean
 
@@ -110,6 +113,63 @@ PWM-Servo/basic_sweep/clean: PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/c
 PWM-Servo/basic_sweep/clean: PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/clean
 
 .PHONY : PWM-Servo/basic_sweep/clean
+
+#=============================================================================
+# Directory level rules for directory UART-CRSF
+
+# Recursive "all" directory target.
+UART-CRSF/all: UART-CRSF/crsf_hello/all
+UART-CRSF/all: UART-CRSF/crsf/all
+
+.PHONY : UART-CRSF/all
+
+# Recursive "preinstall" directory target.
+UART-CRSF/preinstall: UART-CRSF/crsf_hello/preinstall
+UART-CRSF/preinstall: UART-CRSF/crsf/preinstall
+
+.PHONY : UART-CRSF/preinstall
+
+# Recursive "clean" directory target.
+UART-CRSF/clean: UART-CRSF/crsf_hello/clean
+UART-CRSF/clean: UART-CRSF/crsf/clean
+
+.PHONY : UART-CRSF/clean
+
+#=============================================================================
+# Directory level rules for directory UART-CRSF/crsf
+
+# Recursive "all" directory target.
+UART-CRSF/crsf/all: UART-CRSF/crsf/CMakeFiles/crsf.dir/all
+
+.PHONY : UART-CRSF/crsf/all
+
+# Recursive "preinstall" directory target.
+UART-CRSF/crsf/preinstall:
+
+.PHONY : UART-CRSF/crsf/preinstall
+
+# Recursive "clean" directory target.
+UART-CRSF/crsf/clean: UART-CRSF/crsf/CMakeFiles/crsf.dir/clean
+
+.PHONY : UART-CRSF/crsf/clean
+
+#=============================================================================
+# Directory level rules for directory UART-CRSF/crsf_hello
+
+# Recursive "all" directory target.
+UART-CRSF/crsf_hello/all: UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all
+
+.PHONY : UART-CRSF/crsf_hello/all
+
+# Recursive "preinstall" directory target.
+UART-CRSF/crsf_hello/preinstall:
+
+.PHONY : UART-CRSF/crsf_hello/preinstall
+
+# Recursive "clean" directory target.
+UART-CRSF/crsf_hello/clean: UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/clean
+
+.PHONY : UART-CRSF/crsf_hello/clean
 
 #=============================================================================
 # Directory level rules for directory UART-SBUS
@@ -1584,12 +1644,12 @@ pico-sdk/tools/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=45,46 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=24 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
@@ -1616,7 +1676,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
@@ -1638,12 +1698,12 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=43,44 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=23 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
@@ -1665,12 +1725,12 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) -f PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/build.make PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) -f PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/build.make PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=1,2,3 "Built target ELF2UF2Build"
 .PHONY : PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/rule
@@ -1693,12 +1753,12 @@ PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/all: pico-sdk/src/rp2_common/bo
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/all: PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) -f PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/build.make PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/depend
 	$(MAKE) -f PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/build.make PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target basic_sweep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target basic_sweep"
 .PHONY : PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/all
 
 # Build rule for subdir invocation for target.
 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : PWM-Servo/basic_sweep/CMakeFiles/basic_sweep.dir/rule
@@ -1721,12 +1781,12 @@ UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/all: pico-sdk/src/rp2_common/boot
 UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/all: PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) -f UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build.make UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/depend
 	$(MAKE) -f UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build.make UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sbus_hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sbus_hello"
 .PHONY : UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/all
 
 # Build rule for subdir invocation for target.
 UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
 .PHONY : UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/rule
@@ -1740,6 +1800,62 @@ sbus_hello: UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/rule
 UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/clean:
 	$(MAKE) -f UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/build.make UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/clean
 .PHONY : UART-SBUS/SBUS-Hello/CMakeFiles/sbus_hello.dir/clean
+
+#=============================================================================
+# Target rules for target UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir
+
+# All Build rule for target.
+UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all: PWM-Servo/basic_sweep/CMakeFiles/ELF2UF2Build.dir/all
+UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all: UART-CRSF/crsf/CMakeFiles/crsf.dir/all
+	$(MAKE) -f UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build.make UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/depend
+	$(MAKE) -f UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build.make UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target crsf_hello"
+.PHONY : UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all
+
+# Build rule for subdir invocation for target.
+UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 52
+	$(MAKE) -f CMakeFiles/Makefile2 UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
+.PHONY : UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/rule
+
+# Convenience name for target.
+crsf_hello: UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/rule
+
+.PHONY : crsf_hello
+
+# clean rule for target.
+UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/clean:
+	$(MAKE) -f UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/build.make UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/clean
+.PHONY : UART-CRSF/crsf_hello/CMakeFiles/crsf_hello.dir/clean
+
+#=============================================================================
+# Target rules for target UART-CRSF/crsf/CMakeFiles/crsf.dir
+
+# All Build rule for target.
+UART-CRSF/crsf/CMakeFiles/crsf.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+	$(MAKE) -f UART-CRSF/crsf/CMakeFiles/crsf.dir/build.make UART-CRSF/crsf/CMakeFiles/crsf.dir/depend
+	$(MAKE) -f UART-CRSF/crsf/CMakeFiles/crsf.dir/build.make UART-CRSF/crsf/CMakeFiles/crsf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aquila/pico/pico-autobixler/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target crsf"
+.PHONY : UART-CRSF/crsf/CMakeFiles/crsf.dir/all
+
+# Build rule for subdir invocation for target.
+UART-CRSF/crsf/CMakeFiles/crsf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 21
+	$(MAKE) -f CMakeFiles/Makefile2 UART-CRSF/crsf/CMakeFiles/crsf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aquila/pico/pico-autobixler/build/CMakeFiles 0
+.PHONY : UART-CRSF/crsf/CMakeFiles/crsf.dir/rule
+
+# Convenience name for target.
+crsf: UART-CRSF/crsf/CMakeFiles/crsf.dir/rule
+
+.PHONY : crsf
+
+# clean rule for target.
+UART-CRSF/crsf/CMakeFiles/crsf.dir/clean:
+	$(MAKE) -f UART-CRSF/crsf/CMakeFiles/crsf.dir/build.make UART-CRSF/crsf/CMakeFiles/crsf.dir/clean
+.PHONY : UART-CRSF/crsf/CMakeFiles/crsf.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
