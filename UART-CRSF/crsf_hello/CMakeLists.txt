@@ -4,7 +4,7 @@ if (TARGET tinyusb_device)
             )
 
     # Pull in our pico_stdlib which aggregates commonly used features
-    target_link_libraries(crsf_hello pico_stdlib crsf)
+    target_link_libraries(crsf_hello pico_stdlib hardware_uart crsf)
 
     # enable usb output, enable uart output
     pico_enable_stdio_usb(crsf_hello 1)
