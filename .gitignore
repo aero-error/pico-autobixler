@@ -1,0 +1,5 @@
+# artefacts for Visusal Studio Code 
+/.vscode/
+
+# Ignore built files
+/build/
