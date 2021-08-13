@@ -26,7 +26,7 @@
 typedef struct
 {
     uint16_t ch[SBUS_CHANNEL_COUNT];
-    bool framelost;;;
+    bool framelost;
     bool failsafe;
 } sbus_state_t;
 

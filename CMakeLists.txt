@@ -14,6 +14,8 @@ set(PICO_AUTOBIXLER_PATH ${PROJECT_SOURCE_DIR})
 # Initialize the SDK
 pico_sdk_init()
 
-# Hardware-specific examples in subdirectories:
 add_subdirectory(src)
 add_subdirectory(lib)
+
+include_directories(${CMAKE_SOURCE_DIR}/src)
+link_directories(${CMAKE_SOURCE_DIR}/lib)

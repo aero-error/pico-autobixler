@@ -72,8 +72,8 @@ void decode_sbus_data(const uint8_t *data, sbus_state_t *decoded)
         uint8_t b3 = data[idx+2];
 
         uint16_t chData = ((b1 >> info->shift1) | (b2 << info->shift2) | (b3 << info->shift3)) & 0x7FF;
-
-        assert(chData > 2048);
+        printf("CH %i Data = %i, ", channel, chData);
+        assert(chData < 2048);
 
         decoded->ch[channel] = chData;
     }
@@ -86,6 +86,7 @@ void decode_sbus_data(const uint8_t *data, sbus_state_t *decoded)
 
 void sbus_init(uart_inst_t *uart, uint8_t rx_pin, uint8_t tx_pin)
 {
+    printf("Initializing UART for SBUS\n");
     sbus_uart_id = uart;
     // init mutex
     critical_section_init(&fifo_lock);
@@ -102,16 +103,19 @@ void sbus_init(uart_inst_t *uart, uint8_t rx_pin, uint8_t tx_pin)
     gpio_set_function(tx_pin, GPIO_FUNC_UART);
 
     uint32_t actual = uart_set_baudrate(uart, SBUS_BAUD_RATE);
+    printf("Actual baud rate: %i\n", actual);
 
     uart_set_hw_flow(uart, false, false);
     uart_set_format(uart, SBUS_DATA_BITS, SBUS_STOP_BITS, SBUS_PARITY);
-    uart_set_fifo_enabled(uart, false);
+    uart_set_fifo_enabled(uart, false); // turning off FIFO Doing this char by char
 
     // Setting up the RX interrupt
+    printf("Configuring hardware interrupt for UART\n");
     uint32_t UART_IRQ = uart == uart0 ? UART0_IRQ : UART1_IRQ;
     irq_set_exclusive_handler(UART_IRQ, sbus_on_uart_rx);
     irq_set_enabled(UART_IRQ, true);
     uart_set_irq_enables(uart, true, false);
+    printf("Configuration complete!\n\n");
 }
 
 bool hasSbusData()

@@ -18,31 +18,34 @@
 #define UART1_TX_PIN 8
 #define UART1_RX_PIN 9
 
-uint8_t sbus_data_raw[SBUS_MESSAGE_MAX_SIZE];
-sbus_state_t sbus_data;
+uint8_t sbus_data[SBUS_MESSAGE_MAX_SIZE];
+sbus_state_t sbus_data_processed;
+
 
 int main() 
 {   
     // Initialize outputs and hardware
     stdio_init_all();
-    
+    printf("\n--------------------------\n");
     sbus_init(UART_RX_ID, UART1_RX_PIN, UART1_TX_PIN);
-
-    // Dummy print output to USB
-    printf("Reading SBUS RX Signal...\n");
-    while (true) 
+    while(true)
     {
-        if (hasSbusData() == true)
+        printf("Raw SBUS Data:\n");
+        for (uint8_t i = 0; i < SBUS_MESSAGE_MAX_SIZE; ++i)
         {
-            readSbusData(sbus_data_raw);
-            decode_sbus_data(sbus_data_raw, &sbus_data);
+            printf("%i, ",sbus_data[i]);
         }
-        for (uint8_t i = 0; i<=24; ++i)
+
+        printf("\nDecoded SBUS Data:\n");
+        decode_sbus_data(sbus_data, &sbus_data_processed);
+        for (uint8_t i = 0; i < 16; ++i)
         {
-            printf(",%i ", sbus_data_raw[i]);
+            printf("%i, ",sbus_data_processed.ch[i]);
         }
         printf("\n");
-        sleep_ms(1000);
+        printf("Failsafe Status: %i\n", sbus_data_processed.failsafe);
+        printf("Framelost Status: %i\n", sbus_data_processed.framelost);
+        printf("\n");
     }
     return 0;
 }
