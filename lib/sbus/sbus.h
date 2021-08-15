@@ -1,5 +1,4 @@
-#ifndef SBUS_H
-#define SBUS_H
+#pragma once
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -35,5 +34,3 @@ bool readSbusData(uint8_t *data);
 void sbus_on_uart_rx();
 void decode_sbus_data(const uint8_t *data, sbus_state_t *decoded);
 void sbus_init(uart_inst_t *uart, uint8_t rx_pin, uint8_t tx_pin);
-
-#endif

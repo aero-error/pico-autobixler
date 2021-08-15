@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/lib/sbus",
-                "${workspaceFolder}/lib/"
+                "${workspaceFolder}/lib/",
+                "/home/michael/Pico/pico-sdk/src/common/pico_stdlib/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

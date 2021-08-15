@@ -1,6 +1,6 @@
 /**
  *  This program is a UART- SBUS protocol for the Pi Pico 
- *  Derived from SBUS driver from Bolder Flight System
+ *  Derived from SBUS driver from user mmosca
  * 
  * https://github.com/mmosca/pico-sbus/blob/main/sbus/sbus.c
  * 
@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <assert.h>
+//#include <assert.h>
 
 #include "sbus.h"
 
@@ -73,7 +73,7 @@ void decode_sbus_data(const uint8_t *data, sbus_state_t *decoded)
 
         uint16_t chData = ((b1 >> info->shift1) | (b2 << info->shift2) | (b3 << info->shift3)) & 0x7FF;
         printf("CH %i Data = %i, ", channel, chData);
-        assert(chData < 2048);
+        //assert(chData < 2048); // Remove to avoid total system stop
 
         decoded->ch[channel] = chData;
     }

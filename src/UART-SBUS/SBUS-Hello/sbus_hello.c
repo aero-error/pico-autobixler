@@ -3,9 +3,6 @@
  * UART0RX and UART0 TX on GPIO pins 17 and 16 respectively
  * and print the output through serial USB
  * 
- * SBUS drivers from Bolder Flight Systems will be relied on 
- * heavily for this program
- * 
  * Written by: Michael Gromski
  */
 
