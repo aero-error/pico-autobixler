@@ -1,0 +1,1 @@
+add_subdirectory(mpu6050_hello)

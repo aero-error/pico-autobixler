@@ -65,19 +65,19 @@ void servo_write(uint8_t ch_num, uint16_t pwm_cycle)
 // Converts servo deg to cycle format
 uint16_t angle_to_pwm_cycle(float angle_input) 
 {
-    float cycle_output = 9.1033 * angle_input + 2457.6;
+    float cycle_output = 9.1033f * angle_input + 2457.6f;
     return (uint16_t)cycle_output;
 }
 
 // Converts raw sbus rx signal to degrees
 float sbus_rx_to_angle(uint16_t *rx_input)
 {
-    float angle_output = 0.17578125 * *rx_input - 180;
+    float angle_output = 0.17578125f * *rx_input - 180.0f;
     return angle_output;
 }
 
 uint16_t sbus_rx_to_pwm_cycle(uint16_t rx_input)
 {
-    float cycle_output = 1.6008205 * rx_input + 818.68;
+    float cycle_output = 1.600821f * rx_input + 818.68f;
     return (uint16_t)cycle_output;
 }

@@ -1,0 +1,290 @@
+#pragma once
+
+/* MPU6050 Registers */
+#define WHO_AM_I 0x75
+#define FIFO_R_W 0x74
+#define FIFO_COUNTL 0x73
+#define FIFO_COUNTH 0x72
+#define PWR_MGMT_2 0x6C
+#define PWR_MGMT_1 0x6B
+#define USER_CTRL 0x6A
+#define MOT_DETECT_CTRL 0x69
+#define SIGNAL_PATH_RESET 0x68
+#define I2C_MST_DELAY_CTRL 0x67
+#define I2C_SLV3_DO 0x66
+#define I2C_SLV2_DO 0x65
+#define I2C_SLV1_DO 0x64
+#define I2C_SLV0_DO 0x63
+#define EXT_SENS_DATA_23 0x60
+#define EXT_SENS_DATA_22 0x5F
+#define EXT_SENS_DATA_21 0x5E
+#define EXT_SENS_DATA_20 0x5D
+#define EXT_SENS_DATA_19 0x5C
+#define EXT_SENS_DATA_18 0x5B
+#define EXT_SENS_DATA_17 0x5A
+#define EXT_SENS_DATA_16 0x59
+#define EXT_SENS_DATA_15 0x58
+#define EXT_SENS_DATA_14 0x57
+#define EXT_SENS_DATA_13 0x56
+#define EXT_SENS_DATA_12 0x55
+#define EXT_SENS_DATA_11 0x54
+#define EXT_SENS_DATA_10 0x53
+#define EXT_SENS_DATA_09 0x52
+#define EXT_SENS_DATA_08 0x51
+#define EXT_SENS_DATA_07 0x50
+#define EXT_SENS_DATA_06 0x4F
+#define EXT_SENS_DATA_05 0x4E
+#define EXT_SENS_DATA_04 0x4D
+#define EXT_SENS_DATA_03 0x4C
+#define EXT_SENS_DATA_02 0x4B
+#define EXT_SENS_DATA_01 0x4A
+#define EXT_SENS_DATA_00 0x49
+#define GYRO_ZOUT_L 0x48
+#define GYRO_ZOUT_H 0x47
+#define GYRO_YOUT_L 0x46
+#define GYRO_YOUT_H 0x45
+#define GYRO_XOUT_L 0x44
+#define GYRO_XOUT_H 0x43
+#define TEMP_OUT_L 0x42
+#define TEMP_OUT_H 0x41
+#define ACCEL_ZOUT_L 0x40
+#define ACCEL_ZOUT_H 0x3F
+#define ACCEL_YOUT_L 0x3E
+#define ACCEL_YOUT_H 0X3D
+#define ACCEL_XOUT_L 0x3C
+#define ACCEL_XOUT_H 0x3B
+#define INT_STATUS 0x3A
+#define INT_ENABLE 0x38
+#define INT_PIN_CFG 0x37
+#define I2C_MST_STATUS 0x36
+#define I2C_SLV4_DI 0x35
+#define I2C_SLV4_CTRL 0x34
+#define I2C_SLV4_DO 0x33
+#define I2C_SLV4_REG 0x32
+#define I2C_SLV4_ADDR 0x31
+#define I2C_SLV3_CTRL 0x30
+#define I2C_SLV3_REG 0x2F
+#define I2C_SLV3_ADDR 0x2E
+#define I2C_SLV2_CTRL 0x2D
+#define I2C_SLV2_REG 0x2C
+#define I2C_SLV2_ADDR 0x2B
+#define I2C_SLV1_CTRL 0x2A
+#define I2C_SLV1_REG 0x29
+#define I2C_SLV1_ADDR 0x28
+#define I2C_SLV0_CTRL 0x27
+#define I2C_SLV0_REG 0x26
+#define I2C_SLV0_ADDR 0x25
+#define I2C_MST_CTRL 0x24
+#define FIFO_EN 0x23
+#define MOT_THR 0x1F
+#define ACCEL_CONFIG 0x1C
+#define GYRO_CONFIG 0x1B
+#define CONFIG 0x1A
+#define SMPLRT_DIV 0x19
+#define SELF_TEST_A 0x10
+#define SELF_TEST_Z 0x0F
+#define SELF_TEST_Y 0x0E
+#define SELF_TEST_X 0x0D
+
+/* Address Configurations */
+// PWR_MGMT_2
+#define LP_WAKE_CTRL_1_25HZ 0x00
+#define LP_WAKE_CTRL_5HZ 0x40
+#define LP_WAKE_CTRL_20HZ 0x80
+#define LP_WAKE_CTRL_40HZ 0xC0
+#define STBY_XA 0x20
+#define STBY_YA 0x10
+#define STBY_ZA 0x08
+#define STBY_XG 0x04
+#define STBY_YG 0x02
+#define STBY_ZG 0x01
+
+// PWR_MGMT_1
+#define DEVICE_RESET 0x80
+#define SLEEP 0x40
+#define CYCLE 0x20
+#define TEMP_DIS 0x08
+#define CLK_SEL_INTERNAL_8MHZ 0x00
+#define CLK_SEL_PPL_X_GYRO_REF 0x01
+#define CLK_SEL_PPL_Y_GYRO_REF 0x02
+#define CLK_SEL_PPL_Z_GYRO_REF 0x03
+#define CLK_SEL_EXT_32_768_KHZ 0x04
+#define CLK_SEL_EXT_19_2_MHZ 0x05
+#define CLK_SEL_STOP_RESET 0x07
+
+// USER_CTRL
+#define FIFO_EN 0x40
+#define I2C_MST_EN 0x20
+#define I2C_IF_DIS 0x10
+#define FIFO_RESET 0x04
+#define I2C_MST_RESET 0x02
+#define SIG_COND_RESET 0x01
+
+// MOT_DETECT_CTRL
+#define ACCEL_ON_DELAY_0_MS 0x00
+#define ACCEL_ON_DELAY_1_MS 0x10
+#define ACCEL_ON_DELAY_2_MS 0x20
+#define ACCEL_ON_DELAY_3_MS 0x30
+
+// SIGNAL_PATH_RESET
+#define GYRO_RESET 0x04
+#define ACCEL_RESET 0x02
+#define TEMP_RESET 0x01
+
+// I2C_MST_DELAY_CTRL
+#define DELAY_ES_SHADOW 0x80
+#define I2C_SLV4_DLY_EN 0x10
+#define I2C_SLV3_DLY_EN 0x08
+#define I2C_SLV2_DLY_EN 0x04
+#define I2C_SLV1_DLY_EN 0x02
+#define I2C_SLV0_DLY_EN 0x01
+
+// I2C_SLV3_DO - I2C_SLV0_DO
+// Intentionally left empty
+
+// EXT_SENS_DATA_23 - EXT_SENS_DATA_00
+// Intentionally left empty
+
+// GYRO_ZOUT_L - GYRO_XOUT_H 
+// Intentionally left empty
+
+// TEMP_OUT_L - TEMP_OUT_H
+// Intentionally left empty
+
+// ACCEL_ZOUT_L - ACCEL_XOUT_H 
+// Intentionally left empty
+
+// INT_STATUS (READ ONLY)
+#define MOT_INIT 0x40
+#define FIFO_OFLOW_INT 0x10
+#define I2C_MST_INT 0x08
+#define DATA_RDY_INT 0x01
+
+// INT_ENABLE
+#define MOT_EN 0x40
+#define FIFO_OFLOW_EN 0x10
+#define I2C_MST_INT_EN 0x08
+#define DATA_RDY_EN 0x01
+
+// INT_PIN_CFG
+#define INT_LEVEL 0x80
+#define INT_OPEN 0x40
+#define LATCH_INT_EN 0x20
+#define INT_RD_CLEAR 0x10
+#define FSYNC_INT_LEVEL 0x08
+#define FSYNC_INT_EN 0x04
+#define I2C_BYPASS_EN 0x02
+
+// I2C_MST_STATUS (READ ONLY)
+#define PASS_THROUGH 0x80
+#define I2C_SLV4_DONE 0x40
+#define I2C_LOST_ARB 0x20
+#define I2C_SLV4_NACK 0x10
+#define I2C_SLV3_NACK 0x08
+#define I2C_SLV2_NACK 0x04
+#define I2C_SLV1_NACK 0x02
+#define I2C_SLV0_NACK 0x01
+
+// I2C_SLV4_DI - I2C_SLV4_ADDR
+#define I2C_SLV4_RW 0x80
+#define I2C_SLV4_EN 0x80
+#define I2C_SLV4_INT_EN 0x40
+#define I2C_SLV4_REG_DIS 0x20
+
+// I2C_SLV3_CTRL - I2C_SLV0_ADDR
+#define I2C_SLV3_RW 0x80
+#define I2C_SLV3_EN 0x80
+#define I2C_SLV3_BYTE_SW 0x40
+#define I2C_SLV3_REG_DIS 0x20
+#define I2C_SLV3_GRP 0x10
+#define I2C_SLV2_RW 0x80
+#define I2C_SLV2_EN 0x80
+#define I2C_SLV2_BYTE_SW 0x40
+#define I2C_SLV2_REG_DIS 0x20
+#define I2C_SLV2_GRP 0x10
+#define I2C_SLV1_RW 0x80
+#define I2C_SLV1_EN 0x80
+#define I2C_SLV1_BYTE_SW 0x40
+#define I2C_SLV1_REG_DIS 0x20
+#define I2C_SLV1_GRP 0x10
+#define I2C_SLV0_RW 0x80
+#define I2C_SLV0_EN 0x80
+#define I2C_SLV0_BYTE_SW 0x40
+#define I2C_SLV0_REG_DIS 0x20
+#define I2C_SLV0_GRP 0x10
+
+// I2C_MST_CTRL
+#define MULT_MST_EN 0x80
+#define WAIT_FOR_ES 0x40
+#define SLV3_FIFO_EN 0x20
+#define I2C_MST_P_NSR 0x10
+#define I2C_MST_CLK_348_KHZ 0x00
+#define I2C_MST_CLK_333_KHZ 0x01
+#define I2C_MST_CLK_320_KHZ 0x02
+#define I2C_MST_CLK_308_KHZ 0x03
+#define I2C_MST_CLK_296_KHZ 0x04
+#define I2C_MST_CLK_286_KHZ 0x05
+#define I2C_MST_CLK_276_KHZ 0x06
+#define I2C_MST_CLK_267_KHZ 0x07
+#define I2C_MST_CLK_258_KHZ 0x08
+#define I2C_MST_CLK_500_KHZ 0x09
+#define I2C_MST_CLK_471_KHZ 0x0A
+#define I2C_MST_CLK_444_KHZ 0x0B
+#define I2C_MST_CLK_421_KHZ 0x0C
+#define I2C_MST_CLK_400_KHZ 0x0D
+#define I2C_MST_CLK_381_KHZ 0x0E
+#define I2C_MST_CLK_364_KHZ 0x0F
+
+// FIFO_EN
+#define TEMP_FIFO_EN 0x80
+#define XG_FIFO_EN 0x40
+#define YG_FIFO_EN 0x20
+#define ZG_FIFO_EN 0x10
+#define ACCEL_FIFO_EN 0x08
+#define SLV2_FIFO_EN 0x04
+#define SLV1_FIFO_EN 0x02
+#define SLV0_FIFO_EN 0x01
+
+// MOT_THR
+// Intentionally left empty
+
+// ACCEL_CONFIG
+#define XA_ST 0x80
+#define YA_ST 0x40
+#define ZA_ST 0x20
+#define AFS_SEL_2G 0x00
+#define AFS_SEL_4G 0x08
+#define AFS_SEL_8G 0x10
+#define AFS_SEL_16G 0x18
+
+// GYRO_CONFIG
+#define XG_ST 0x80
+#define YG_ST 0x40
+#define ZG_ST 0x20
+#define FS_SEL_200_DEG_S 0x00
+#define FS_SEL_500_DEG_S 0x08
+#define FS_SEL_1000_DEG_S 0x10
+#define FS_SEL_2000_DEG_S 0x18
+
+// CONFIG
+#define EXT_SYNC_SET_DISABLE 0x00
+#define EXT_SYNC_SET_TEMP_OUT_L 0x08
+#define EXT_SYNC_SET_GYRO_XOUT_L 0x10
+#define EXT_SYNC_SET_GYRO_YOUT_L 0x18
+#define EXT_SYNC_SET_GYRO_ZOUT_L 0x20
+#define EXT_SYNC_SET_ACCEL_XOUT_L 0x28
+#define EXT_SYNC_SET_ACCEL_YOUT_L 0x30
+#define EXT_SYNC_SET_ACCEL_ZOUT_L 0x38
+#define DLPF_CFG_260_HZ 0x00
+#define DLPF_CFG_184_HZ 0x01
+#define DLPF_CFG_94_HZ 0x02
+#define DLPF_CFG_44_HZ 0x03
+#define DLPF_CFG_21_HZ 0x04
+#define DLPF_CFG_10_HZ 0x05
+#define DLPF_CFG_5_HZ 0x06
+
+// SMPRT_DIV
+// Intentionally left empty
+
+// SELF_TEST_A - SELF_TEST_X
+// Intentionally left empty
